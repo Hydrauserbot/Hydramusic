@@ -1,32 +1,32 @@
 services:
   - type: web
-    name: shruti-music
+    name: hydra-music
     env: python
     region: oregon
     plan: free
     buildCommand: |
       apt-get update && apt-get install -y ffmpeg
       pip install -r requirements.txt
-    startCommand: python3 -m ShrutiMusic
+    startCommand: python3 -m hydramusic
     autoDeploy: true
 
     envVars:
       API_ID: 
-        value: 29448785
+        value: 7321902
       API_HASH: 
-        value: 599574f6aff0a09ebb76305b58e7e9c2
+        value: c66778fce4332ab56a81ef29e1c7f1fa
       API_KEY:
-        sync: false
+        sync: true
       BOT_TOKEN:
-        sync: false
+        value: 7998260203:AAFSy4a-8lo9dpRciLdI3WdKoJpbK6MXiK4
       MONGO_DB_URI: 
         value: mongodb+srv://pusers:nycreation@nycreation.pd4klp1.mongodb.net/?retryWrites=true&w=majority&appName=NYCREATION
       OWNER_ID:
-        value: 7574330905
+        value: 8397833424
       OWNER_USERNAME:
-        value: WTF_WhyMeeh
+        value: @master_hydraa
       BOT_USERNAME:
-        value: ShrutixMusicBot
+        value: @HYDRAxMUSIX_BOT
       UPSTREAM_REPO:
         value: https://github.com/NoxxOP/ShrutiMusic
       STRING_SESSION:
@@ -38,18 +38,18 @@ services:
       HEROKU_APP_NAME:
         sync: false
       LOG_GROUP_ID:
-        value: -1002321189618
+        value: -1002658456944
       SUPPORT_GROUP:
-        value: https://t.me/ShrutiBotsupport
+        value: https://t.me/gang_ster1
       SUPPORT_CHANNEL:
-        value: https://t.me/ShrutiBots
+        value: https://t.me/HYDRA_XSUPPORT
       INSTAGRAM:
-        value: https://instagram.com/yaduwanshi_nand
+        value: https://instagram.com/hello__478_
       YOUTUBE:
-        value: https://youtube.com/@NandEditz
+        value: https://youtube.com/@hydrahunter10
       GITHUB:
         value: https://github.com/NoxxOP
       DONATE:
-        value: https://t.me/ShrutiBots/91
+        value: https://t.me/gang_ster1
       START_IMG_URL:
         sync: false
